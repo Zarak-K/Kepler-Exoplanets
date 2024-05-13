@@ -6,5 +6,5 @@ These missions use the transit method to identify exoplanet candidates around ho
 The sizes of these exoplanets can also be estimated from the magnitude of dips in flux. From the sizes, a rough categorization of the planet into either rocky terrestrial or gas giant can be performed. 
 Rocky terrestrial planets are of great interest when considering habitability, especially for targets of the TESS mission which are much closer to our solar system.
 
-The Jupyter notebook shows a worked example of the lightcurve for Kepler-62 being converted to a periodogram to easily identify periodic changes in flux. 
+The Jupyter notebook "Kepler Exoplanets.ipynb" shows a worked example of the lightcurve for Kepler-62 being converted to a periodogram to easily identify periodic changes in flux. 
 Phase folding is performed to confirm the periodic signal is due to dips in flux, and the magnitude of the dip can also be visualized this way. Data corresponding to these dips in flux is then masked in the original lightcurve and again converted to a periodogram to identify additional signals. This process is repeated with various period search ranges until all potential exoplanet candidates are identified for the target star.
